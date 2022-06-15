@@ -1,0 +1,55 @@
+@import url(../Blog_Post/blogPost.css);
+@import url(../Home/styles.css);
+
+ /* * {
+    border: 1px solid red !important;
+}   */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+#active {
+    border-bottom: 5px solid red;
+}
+
+.navBar {
+    color: white;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.topMenu {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    border: 1px solid black;
+}
