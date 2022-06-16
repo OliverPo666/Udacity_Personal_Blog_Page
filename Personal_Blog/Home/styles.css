@@ -1,32 +1,4 @@
-#img1{
-    width: 100%;
-    height: 200px;
-}
-
-#archList{
-    padding: 0;
-    margin-left: 1.5em;
-    margin-top: 0;
-}
-
-h3{
-    padding-left: 6px;
-    margin-bottom: 0;
-}
-.archives{
-    float: left;
-    color: rgb(116, 116, 255);
-}
-
-.aboutContainer{
-    margin: 5px;
-    padding: 0;
-    border: 1px outset;
-    border-radius: 5px;
-    background-color: rgb(238, 238, 238);
-}
-
-.sidebarP{
-    margin-top: 0;
-    padding: 6px;
+.test{
+    border: 2px solid blue;
+    height:100%;
 }

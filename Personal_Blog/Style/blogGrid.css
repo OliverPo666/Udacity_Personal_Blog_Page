@@ -1,0 +1,61 @@
+#img1{
+    width: 100%;
+    height: 200px;
+}
+
+#archList{
+    padding: 0;
+    margin-left: 1.5em;
+    margin-top: 0;
+}
+
+.archives{
+    float: left;
+    color: rgb(116, 116, 255);
+}
+
+.aboutContainer{
+    margin: 5px;
+    padding: 0;
+    border: 1px outset;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+
+.sidebarP{
+    margin-top: 0;
+    padding: 6px;
+}
+
+
+.container {
+    height: auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 95vh 5vh;
+    grid-template-areas:
+        "main sd"
+        "ft ft";
+}
+
+.mainContent {
+    max-height: 98%;
+    overflow: auto;
+    grid-area: main;
+}
+
+.sideBar {
+    grid-area: sd;
+}
+
+.footer {
+    grid-area: ft;
+    border-top: 1px ridge;
+    padding: 4px;
+}
+
+#sideContent{
+   display: flex;
+   flex-direction: column; 
+}

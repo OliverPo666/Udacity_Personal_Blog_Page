@@ -1,6 +1,8 @@
-@import url(../Blog_Post/blogPost.css);
+@import url(../BlogPost/blogPost.css);
 @import url(../Home/styles.css);
 @import url(topnav.css);
+@import url(../Blog/blog.css);
+@import url(blogGrid.css);
    /* * {
     border: 1px solid red !important;
 }        */
@@ -10,31 +12,8 @@ body {
     padding: 0;
 }
 
-
-.container {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: 90vh 10vh;
-    grid-template-areas:
-        "mian sd"
-        "ft ft";
-
+h3{
+    padding-left: 6px;
+    margin-bottom: 0;
 }
 
-.mianContent {
-    grid-area: main;
-}
-
-.sideBar {
-    grid-area: sd;
-}
-
-.footer {
-    grid-area: ft;
-}
-
-#sideContent{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-}
