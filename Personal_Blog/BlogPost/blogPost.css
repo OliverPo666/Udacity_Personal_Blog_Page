@@ -1,0 +1,38 @@
+.blogPostTitle{
+    text-align: center;
+}
+
+.blogDate{
+    color: grey;
+    text-align: center;
+}
+
+.blogAuthor{
+    
+}
+
+.dateandAuthor{
+    text-align: center;
+}
+
+.blogText{
+    padding: 30px;
+}
+
+#p2{
+    border: 1px solid;
+}
+#p3{
+    border-bottom: 1px groove;
+}
+
+.bloghead{
+    padding-left: 0;
+}
+
+.btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

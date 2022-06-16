@@ -53,6 +53,8 @@
     grid-area: ft;
     border-top: 1px ridge;
     padding: 4px;
+    background-color: black;
+    color: white;
 }
 
 #sideContent{

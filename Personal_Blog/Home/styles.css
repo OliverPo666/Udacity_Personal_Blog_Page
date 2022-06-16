@@ -1,4 +1,31 @@
-.test{
-    border: 2px solid blue;
-    height:100%;
+body{
+    overflow: auto;
+}
+
+.homeFooter {
+    border-top: 1px ridge;
+    background-color: black;
+    color: white;
+}
+
+.homeHeader{
+    text-align: center;
+}
+
+.homeText{
+    padding: 30px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-around;
+    
+}
+
+.galleryimg{
+    max-width:90%;
+    max-height: 400px;
 }
