@@ -1,0 +1,59 @@
+.cardContainer{
+    display: grid;
+    width: 100%;
+    height: 98%;
+    grid-template-columns: 40% 40%;
+    grid-auto-rows: auto;
+    grid-gap:25px;
+    justify-content: center;
+    padding-top: 20px;
+    height: fit-content;
+}
+
+.card{
+    display:grid;
+    /* flex-direction: column; */
+    border: 5px groove;
+    border-radius: 5px;
+    justify-content: flex-start; 
+    grid-template-columns: 60% 40%;
+    grid-template-rows:20% 10% 60% 10%;
+    grid-template-areas:
+        "title img"
+        "date img"
+        "content content"
+        "lk lk";
+}
+
+.cardimg{
+    max-width:90%;
+    max-height: 90%;
+}
+
+#gridimg{
+    grid-area: img;
+}
+
+#cardTitle{
+    grid-area: title;
+}
+
+#postDate{
+    grid-area: date;
+    color: grey;
+}
+
+#cardText{
+    grid-area: content;
+}
+
+.cardContent{
+    padding: 0px;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+}
+
+#postLink{
+    grid-area: lk;
+    margin-bottom: 0px;
+}

@@ -1,7 +1,7 @@
-@import url(../BlogPost/blogPost.css);
-@import url(../Home/styles.css);
+@import url(blogPost.css);
+@import url(styles.css);
 @import url(topnav.css);
-@import url(../Blog/blog.css);
+@import url(blog.css);
 @import url(blogGrid.css);
     /* * {
     border: 1px solid red !important;
