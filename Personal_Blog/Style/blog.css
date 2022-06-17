@@ -13,6 +13,7 @@
 .card{
     display:grid;
     /* flex-direction: column; */
+    min-height: auto;
     border: 5px groove;
     border-radius: 5px;
     justify-content: flex-start; 
@@ -45,6 +46,9 @@
 
 #cardText{
     grid-area: content;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .cardContent{
